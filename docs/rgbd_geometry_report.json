@@ -1,0 +1,144 @@
+{
+  "scope": "Fixed external camera and gripper-base position; not wrist-camera or TCP contact calibration",
+  "depth_convention": "metres, axial depth along camera local +X",
+  "table_patch_caveat": "Fixed image patch; occluded frames must be rejected by visual inspection",
+  "world_from_camera": [
+    [
+      0.8317914149233008,
+      0.0,
+      0.5550883191528113,
+      -0.2
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.5550883191528113,
+      0.0,
+      0.8317914149233008,
+      1.6266427
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "base_from_camera": [
+    [
+      -0.8317914149233008,
+      0.0,
+      -0.5550883191528113,
+      1.6042539999999998
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.5550883191528113,
+      0.0,
+      0.8317914149233008,
+      0.8000000000000002
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fk_max_error_mm": 0.0010416291241778812,
+  "records": [
+    {
+      "sample": "sample_00000.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7549139941502858,
+      "fk_error_mm": 0.0006901344196838564
+    },
+    {
+      "sample": "sample_00100.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7546862594656201,
+      "fk_error_mm": 0.0004967594305739732
+    },
+    {
+      "sample": "sample_00200.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7303953340022096,
+      "table_absolute_p95_mm": 0.7548380825886936,
+      "fk_error_mm": 0.0006337346645044041
+    },
+    {
+      "sample": "sample_00300.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7303167169192548,
+      "table_absolute_p95_mm": 0.7547621710271013,
+      "fk_error_mm": 0.0009202103982747611
+    },
+    {
+      "sample": "sample_00400.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7301594827531233,
+      "table_absolute_p95_mm": 0.7546862594656201,
+      "fk_error_mm": 0.0010416291241778812
+    },
+    {
+      "sample": "sample_00500.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7546862594656201,
+      "fk_error_mm": 0.0006231340799565992
+    },
+    {
+      "sample": "sample_00600.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7303167169192548,
+      "table_absolute_p95_mm": 0.7548380825886936,
+      "fk_error_mm": 0.0008370686194356721
+    },
+    {
+      "sample": "sample_00700.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7304739510852754,
+      "table_absolute_p95_mm": 0.754989905711767,
+      "fk_error_mm": 0.00047169742333070267
+    },
+    {
+      "sample": "sample_00800.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7549139941502858,
+      "fk_error_mm": 0.0005337992416842614
+    },
+    {
+      "sample": "sample_00900.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7548380825886936,
+      "fk_error_mm": 0.0007701514036497505
+    },
+    {
+      "sample": "sample_01000.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.7303167169192548,
+      "table_absolute_p95_mm": 0.7549139941502858,
+      "fk_error_mm": 0.0005774968377526157
+    },
+    {
+      "sample": "sample_01100.npz",
+      "table_valid_pixels": 6300,
+      "table_median_error_mm": 0.730238099836078,
+      "table_absolute_p95_mm": 0.7546862594656201,
+      "fk_error_mm": 0.0007341719826116769
+    }
+  ]
+}

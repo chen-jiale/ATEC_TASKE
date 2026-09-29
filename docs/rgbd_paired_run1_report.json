@@ -1,0 +1,574 @@
+{
+  "summary": [
+    {
+      "method": "locate",
+      "object": 1,
+      "samples": 8,
+      "misses": 0,
+      "median_mm": 39.95206657403777,
+      "p95_mm": 57.259638645677605
+    },
+    {
+      "method": "locate",
+      "object": 2,
+      "samples": 8,
+      "misses": 0,
+      "median_mm": 49.725807246762926,
+      "p95_mm": 52.616733664343464
+    },
+    {
+      "method": "locate",
+      "object": 3,
+      "samples": 8,
+      "misses": 0,
+      "median_mm": 7.366396703482101,
+      "p95_mm": 18.27227738645766
+    },
+    {
+      "method": "locate_pointcloud",
+      "object": 1,
+      "samples": 8,
+      "misses": 0,
+      "median_mm": 89.67238917173052,
+      "p95_mm": 93.54707306568507
+    },
+    {
+      "method": "locate_pointcloud",
+      "object": 2,
+      "samples": 8,
+      "misses": 2,
+      "median_mm": 22.634821062080686,
+      "p95_mm": 156.36386238684116
+    },
+    {
+      "method": "locate_pointcloud",
+      "object": 3,
+      "samples": 8,
+      "misses": 0,
+      "median_mm": 8.174611319567664,
+      "p95_mm": 9.485486116519619
+    }
+  ],
+  "records": [
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -47.83712809925555,
+        23.572702980881655,
+        15.319031810760553
+      ],
+      "error_mm": 55.486357658694324
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        35.533407494938054,
+        8.58574561835676,
+        -15.411036872863715
+      ],
+      "error_mm": 39.67162882364697
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        16.98880680116477,
+        1.6025841796745017,
+        -17.08149518966673
+      ],
+      "error_mm": 24.14467457835895
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -54.37025442101762,
+        -35.13559690520951,
+        33.72520797607314
+      ],
+      "error_mm": 72.9933174250968
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": null,
+      "error_mm": null
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00000.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -4.187954212547584,
+        3.34831452602119,
+        -8.666741742751283
+      ],
+      "error_mm": 10.191299381683725
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -49.72278064136981,
+        23.64607629860016,
+        15.721780395507867
+      ],
+      "error_mm": 57.259638645677605
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        38.70252615473202,
+        7.106869264537852,
+        -34.930306339263865
+      ],
+      "error_mm": 52.61672189005854
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14532461294757687,
+        5.6222716331482125
+      ],
+      "error_mm": 7.366396813718794
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -55.79888028727753,
+        -34.78459372841319,
+        43.433551991798105
+      ],
+      "error_mm": 78.80327684042663
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        197.60825480029487,
+        -20.88373275259027,
+        29.862347710396865
+      ],
+      "error_mm": 200.94007183654662
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00100.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.42478869842733,
+        5.167391371466767,
+        3.2702467807169677
+      ],
+      "error_mm": 8.174642500763186
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -49.72278064136981,
+        23.64607629860016,
+        15.721780395507867
+      ],
+      "error_mm": 57.259638645677605
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        38.70252615473202,
+        7.107003374988596,
+        -34.930306339263865
+      ],
+      "error_mm": 52.616740004343036
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14531343707668148,
+        5.6222716331482125
+      ],
+      "error_mm": 7.366396593249176
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -55.79909401860683,
+        -34.78463096143097,
+        43.4335624311144
+      ],
+      "error_mm": 78.80345036784735
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": null,
+      "error_mm": null
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00200.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.4248517084538594,
+        5.167391818919801,
+        3.2702604159047244
+      ],
+      "error_mm": 8.174690052643426
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -36.73170989399432,
+        23.33419499481293,
+        12.584311103820855
+      ],
+      "error_mm": 45.29975776701529
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        34.74293069592682,
+        6.7432617402210795,
+        -34.93024673461909
+      ],
+      "error_mm": 49.72589817369286
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14532833823787533,
+        5.6222716331482125
+      ],
+      "error_mm": 7.3663968872124315
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -43.25480014130956,
+        -1.5188302796081965,
+        74.08093895012912
+      ],
+      "error_mm": 85.79784435762734
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        -22.555621417160054,
+        -1.2770920237975825,
+        -1.394551909500108
+      ],
+      "error_mm": 22.63474754839972
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00300.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.424687906279146,
+        5.167407157561629,
+        3.270233145529211
+      ],
+      "error_mm": 8.17458013837214
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -24.25967840023624,
+        10.805619729546246,
+        22.1848908424378
+      ],
+      "error_mm": 34.604375381060244
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        34.74209623089997,
+        6.74299351931959,
+        -34.930425548553416
+      ],
+      "error_mm": 49.72540438369237
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.1453208876572784,
+        5.6222716331482125
+      ],
+      "error_mm": 7.366396740227038
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -38.72229506382063,
+        -0.36445766581061356,
+        85.15571062650262
+      ],
+      "error_mm": 93.54701500691728
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        -22.55606090878026,
+        -1.277373580540142,
+        -1.3950817028779428
+      ],
+      "error_mm": 22.635234037724725
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00400.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.424768787734013,
+        5.167398435197167,
+        3.2702710577015015
+      ],
+      "error_mm": 8.17464346496478
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -24.25955919094669,
+        10.80556012490147,
+        22.184950447082574
+      ],
+      "error_mm": 34.60431140900532
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        34.74281148663727,
+        6.742904112352427,
+        -34.930306339263865
+      ],
+      "error_mm": 49.72580825707322
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14531716236697995,
+        5.6222716331482125
+      ],
+      "error_mm": 7.366396666737165
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -38.72222947117443,
+        -0.36451931474223986,
+        85.1557702311474
+      ],
+      "error_mm": 93.54704235414971
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        -22.555425854418054,
+        -1.2776136499850488,
+        -1.3946439122474175
+      ],
+      "error_mm": 22.63458777523345
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00500.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.424643070655488,
+        5.167391263730371,
+        3.2702953346859243
+      ],
+      "error_mm": 8.17456521734068
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -24.25955919094669,
+        10.80556012490147,
+        22.18501005172735
+      ],
+      "error_mm": 34.604349621791044
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        34.74281148663727,
+        6.742889211191233,
+        -34.930306339263865
+      ],
+      "error_mm": 49.72580623645263
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14531716236697995,
+        5.6222716331482125
+      ],
+      "error_mm": 7.366396666737165
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -38.72197470726269,
+        -0.36450330522763696,
+        85.155767099243
+      ],
+      "error_mm": 93.5469339858337
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        -22.555352454167952,
+        -1.2776131336129093,
+        -1.3946223135123947
+      ],
+      "error_mm": 22.634513271733223
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00600.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.424690564884926,
+        5.167394391147738,
+        3.2702467807169677
+      ],
+      "error_mm": 8.174579287352122
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate",
+      "object": 1,
+      "delta_mm": [
+        -24.25955919094669,
+        10.80556012490147,
+        22.18501005172735
+      ],
+      "error_mm": 34.604349621791044
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate",
+      "object": 2,
+      "delta_mm": [
+        34.74209623089997,
+        6.742814705385264,
+        -34.930425548553416
+      ],
+      "error_mm": 49.72538013601612
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate",
+      "object": 3,
+      "delta_mm": [
+        4.757388407218288,
+        0.14525755772220456,
+        5.6222716331482125
+      ],
+      "error_mm": 7.3663954911553216
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate_pointcloud",
+      "object": 1,
+      "delta_mm": [
+        -38.72217663992572,
+        -0.36450262217235796,
+        85.15584623050832
+      ],
+      "error_mm": 93.54708960266565
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate_pointcloud",
+      "object": 2,
+      "delta_mm": [
+        -22.555711207770557,
+        -1.2776453550447375,
+        -1.3949791088867514
+      ],
+      "error_mm": 22.634894575761653
+    },
+    {
+      "sample": "/tmp/rgbd_paired_run1/sample_00700.npz",
+      "method": "locate_pointcloud",
+      "object": 3,
+      "delta_mm": [
+        -5.424710475578021,
+        5.167318720067107,
+        3.2702467807169677
+      ],
+      "error_mm": 8.174544666548197
+    }
+  ]
+}

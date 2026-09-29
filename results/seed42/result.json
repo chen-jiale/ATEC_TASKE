@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "score": 17.999999597668648,
+  "elapsed_sim_seconds": 63.7599983215332,
+  "steps": 3188,
+  "termination_reason": "basket_success",
+  "terminal_evidence": {
+    "objects_world": {
+      "object_1": [
+        1.0346211194992065,
+        -0.3239673674106598,
+        0.9689778089523315
+      ],
+      "object_2": [
+        1.1176985502243042,
+        -0.3219088017940521,
+        0.8834444880485535
+      ],
+      "object_3": [
+        1.0311262607574463,
+        -0.3842695653438568,
+        0.8519044518470764
+      ]
+    },
+    "termination_terms": {
+      "time_out": false,
+      "illegal_contact": false,
+      "fall": false,
+      "basket_success": true
+    }
+  },
+  "policy": "RGBD deterministic FK/IK; no ACT checkpoint",
+  "order": [
+    "banana",
+    "mustard_bottle",
+    "sugar_box"
+  ],
+  "sha256": {
+    "demo/solution_rgbd.py": "7a57a5579b8ebbf8dbb671d03e5f46faed3e5315c933e6afeeee34f0608c21cd",
+    "demo/piper_kinematics.py": "921bad48f1a5ed3b316639ea7f33d1b8f73530ed67a708e04d42c86cf1ce24c0",
+    "demo/rgbd/perception.py": "5e93837472d47919ceeb2f8195d873fd0abecfdc3d78b8951795a6676972272c",
+    "demo/rgbd_vbc_alore.py": "aeb84ac95b2a8f441089c494bb95eb6ce16de52e219bd9974707df6dcc2ae58a",
+    "source/atec_rl_lab/atec_rl_lab/tasks/task_e/mdp/rewards.py": "ac96e75c60f8f16900bca1fe92278cf26b28304ece5b3c8064fe1e11c29b6016",
+    "source/atec_rl_lab/atec_rl_lab/tasks/task_e/mdp/terminations.py": "7e8f205d6baba71769e3101554ebef0d5a245ac75cb3130cd30aa56801298a3c"
+  }
+}

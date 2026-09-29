@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+datasets/atec_task_e/*.hdf5
+datasets/atec_task_e/videos/
+scripts/act/runs/
+logs/
+.venv/
+# Generated runtime artifacts
+output/
+remote-results/
+datasets/atec_task_e/
+*.mp4
+*.hdf5
+*.pt
+*.pth
+.env
+.env.*
+!.env.example
+!results/seed42/rgbd_success.mp4
